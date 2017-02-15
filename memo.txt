@@ -1,0 +1,34 @@
+#djangoプロジェクトの作成
+django-admin startproject aaaaaa
+
+#Django with Visual Studio Code
+コマンドプロンプトでvirtualenvで対象の環境内にはいる
+対象のプロジェクトフォルダへ移動して code ./ を実行
+
+＃ビルトインサーバー起動
+python manage.py runserver
+
+＃rest_framework
+Serializer
+    Modelをどのようにシリアライズ(・デシリアライズ)するかを決めるためのもの
+ViewSet
+    APIのクエリーをどう解釈するかを決めるためのもの
+URL pattern
+    DjangoにURLのパターンを教えるためのもの
+
+このように分割することによって高い拡張性とコードの見通しのよさを実現しています。
+
+＃extraでサブクエリ
+http://note.crohaco.net/2014/django-aggregate/
+https://docs.djangoproject.com/en/1.10/ref/models/querysets/
+
+＃admin
+python maange.py createsuperuser
+
+http://127.0.0.1:8000/admin/
+dev
+hogehoge
+
+
+http://127.0.0.1:8000/api/vdays/
+
