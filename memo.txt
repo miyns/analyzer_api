@@ -29,6 +29,5 @@ http://127.0.0.1:8000/admin/
 dev
 hogehoge
 
-
-http://127.0.0.1:8000/api/vdays/
-
+#api一覧
+http://127.0.0.1:8000/api/
