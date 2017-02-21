@@ -111,7 +111,7 @@ class VWeekGroupByWeekTargetDetailSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = VDay
-        fields = ('date','target','close','ema12','ema26','pips','pips_ratio')
+        fields = ('date','target','week','open', 'close','ema12','ema26','pips','pips_ratio')
 
 # VMonth
 class VMonthSerializer(serializers.ModelSerializer):

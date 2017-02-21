@@ -251,7 +251,7 @@ class VWeekGroupByWeekTargetDetailViewSet(viewsets.ModelViewSet):
         # logger.error(self.request.query_params['target'])
         params = self.request.query_params
         target = params['target']#[0:3] + "/" + params['target'][3:6]
-        return VDay.objects.filter(target=target,week=params['week']).order_by('date')
+        return VDay.objects.filter(target=target,week__range=(int(params['week'])-1,int(params['week'])+1)).order_by('date')
 
 # VMonth
 class VMonthViewSet(viewsets.ModelViewSet):
