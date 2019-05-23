@@ -1,7 +1,7 @@
-django==2.2
-djangorestframework==3.5.4
-django-filter==1.0.1
-markdown==2.6.8
-PyMySQL==0.7.10
-pylint-django==0.7.2
-django-cors-headers=2.0.2
+#django==2.2
+#djangorestframework==3.5.4
+#django-filter==1.0.1
+#markdown==2.6.8
+#PyMySQL==0.7.10
+#pylint-django==0.7.2
+#django-cors-headers=2.0.2
